@@ -1,6 +1,6 @@
-var http = require("http"),
-    router = require("./router"),
-    url = require("url");
+var http = require('http'),
+    router = require('./router'),
+    url = require('url');
 
 function start(route, handle) {
     function onRequest(request, response) {
@@ -19,7 +19,7 @@ function start(route, handle) {
     }
 
     http.createServer(onRequest).listen(8888);
-    console.log("Server has started.");
+    console.log('Server has started.');
 }
 
 exports.start = start;
