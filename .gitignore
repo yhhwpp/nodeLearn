@@ -2,3 +2,5 @@
 yarn.lock
 .eslintrc
 /tmp
+demo*.js
+/home
