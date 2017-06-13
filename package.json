@@ -1,29 +1,17 @@
 {
-  "devDependencies": {
-    "formidable": "^1.1.1"
-  },
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
-  "name": "nodetest",
-  "version": "1.0.0",
-  "description": "nodetest",
-  "main": "index.js",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "cheerio": "^1.0.0-rc.1",
-    "cookie-parser": "^1.4.3",
-    "eventproxy": "^0.3.5",
-    "express": "^4.15.3",
-    "formidable": "^1.1.1",
-    "multer": "^1.3.0",
-    "superagent": "^3.5.2",
-    "utility": "^1.12.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "]"
-  },
-  "author": "hehe",
-  "license": "ISC"
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "serve-favicon": "~2.4.2"
+  }
 }
